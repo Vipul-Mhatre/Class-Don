@@ -1,10 +1,9 @@
 const express = require("express");
-const cors = require("cors");
 const bodyParser = require("body-parser");
-const connectDB = require("./config/db");
+const cors = require("cors");
 const projectRoutes = require("./routes/projectRoutes");
-
-connectDB();
+// const connectDB = require("./config/db");
+// connectDB();
 
 const app = express();
 const PORT = 5000;
